@@ -4,7 +4,7 @@
   <artifactId>final_cucumber_1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
- <dependency>
+  <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
     <version>4.11</version>
@@ -17,6 +17,7 @@
     <version>1.2.2</version>
     <scope>test</scope>
 </dependency>
+
     <dependency>
     <groupId>info.cukes</groupId>
     <artifactId>cucumber-java</artifactId>

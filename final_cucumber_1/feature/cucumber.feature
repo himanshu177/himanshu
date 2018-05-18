@@ -12,4 +12,10 @@ Scenario: Display all the modules
 Given User Must be Logged in the Account
 When User clicks on Employee
 And User click on add employee and the employee
-Then Message Displayed employee is added
+Then Message Displayed employee is addedFeature: login 
+
+@simple
+Scenario: should be successfull
+Given User must be login successfully
+When enter "administrator1" and "admin123"
+Then Sucessfull 
